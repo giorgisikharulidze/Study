@@ -412,7 +412,7 @@ button, input[type="submit"], input[type="reset"] {
 	display: block;
 	transition: 0.5s;
 	position: absolute;
-	background: coral;
+	background: #FF8000;
 	content: attr(data-back);
 	transform: translateY(-50%) rotateX(90deg);
   }
