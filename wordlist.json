@@ -1,0 +1,72 @@
+{
+    "Sheet1": [
+      {
+        "english": "Hi",
+        "foreign": "გამარჯობა"
+      },
+      {
+        "english": "Dog",
+        "foreign": "ძაღლი"
+      },
+      {
+        "english": "Cat",
+        "foreign": "კატა"
+      },
+      {
+        "english": "Lion",
+        "foreign": "ლომი"
+      },
+      {
+        "english": "Table",
+        "foreign": "მაგიდა"
+      },
+      {
+        "english": "Pen",
+        "foreign": "კალამი"
+      },
+      {
+        "english": "Door",
+        "foreign": "კარები"
+      },
+      {
+        "english": "Apple",
+        "foreign": "ვაშლი"
+      },
+      {
+        "english": "Water",
+        "foreign": "წყალი"
+      },
+      {
+        "english": "Red",
+        "foreign": "წითელი"
+      },
+      {
+        "english": "Yellow",
+        "foreign": "ყვითელი"
+      },
+      {
+        "english": "Pink",
+        "foreign": "ვარდისფერი"
+      },
+      {
+        "english": "One",
+        "foreign": "ერთი"
+      },
+      {
+        "english": "Two",
+        "foreign": "ორი"
+      },
+      {
+        "english": "Three",
+        "foreign": "სამი"
+      },
+      {
+        "english": "Four",
+        "foreign": "ოთხი"
+      },
+      {
+        "english": "Five",
+        "foreign": "ხუთი"
+      }
+    ]
+  }
