@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const shuffleButton = document.getElementById('shuffleButton');
     shuffleButton.addEventListener('click', shuffleWords);
 
-  fileInput.addEventListener('change', function (e) {
+    fileInput.addEventListener('change', function (e) {
         const file = e.target.files[0];
 
         if (file) {
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const checkbox = document.querySelector('.checkbox');
-    checkbox.addEventListener('change', displayWords);
+        checkbox.addEventListener('change', displayWords);
     });
 });
 
@@ -66,19 +66,19 @@ function displayWords() {
             wordDiv.classList.add('word', 'btn', 'btn-one');
             wordDiv.style.width = `calc(${wordWidth}% - 2px)`; // Adjust width with 1px space on each side
 
-            
+
 
             if (useForeignLanguage) {
                 wordDiv.textContent = wordsToDisplay[i].foreign;
 
             } else {
                 wordDiv.textContent = wordsToDisplay[i].english;
-            }           
-            
+            }
+
             wordDiv.addEventListener('click', () => {
-                showTranslation(useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
+                //                showTranslation(useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
                 flipButton.setAttribute('data-front', useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
-                flipButton.setAttribute('data-back', useForeignLanguage ? wordsToDisplay[i].foreign_2 ?  wordsToDisplay[i].foreign_2:''   : wordsToDisplay[i].english_2 ? wordsToDisplay[i].english_2 :'' );
+                flipButton.setAttribute('data-back', useForeignLanguage ? wordsToDisplay[i].foreign_2 ? wordsToDisplay[i].foreign_2 : '' : wordsToDisplay[i].english_2 ? wordsToDisplay[i].english_2 : '');
                 wordDiv.classList.add('clicked');
             });
 
@@ -121,7 +121,7 @@ function handleFile(event) {
     }
 }
 
-
+/*
 function showTranslation(translation) {
 //    console.log('Translation:', translation);
     const translationDiv = document.getElementById('translation');
@@ -137,8 +137,5 @@ function showTranslation(translation) {
         console.error('Translation element not found');
     }
 
-/*    const clickedWord = document.querySelector('.word.clicked');
-    if (clickedWord) {
-        clickedWord.classList.remove('clicked');
-    }*/
 }
+*/
