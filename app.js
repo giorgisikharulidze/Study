@@ -160,4 +160,9 @@ function showTranslation(translation) {
     } else {
         console.error('Translation element not found');
     }
+
+/*    const clickedWord = document.querySelector('.word.clicked');
+    if (clickedWord) {
+        clickedWord.classList.remove('clicked');
+    }*/
 }
