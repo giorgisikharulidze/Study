@@ -2,7 +2,6 @@
 
 let currentIndex = 0; // Initialize currentIndex
 let wordList; // Declare wordList at the top level
-
 document.addEventListener('DOMContentLoaded', function () {
     const fileInput = document.getElementById('fileInput');
     const shuffleButton = document.getElementById('shuffleButton');
@@ -64,6 +63,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             reader.readAsText(file);
         }
+
+        const checkbox = document.querySelector('.checkbox');
+    checkbox.addEventListener('change', displayWords);
     });
 });
 
@@ -74,6 +76,8 @@ function shuffleWords() {
 }
 function displayWords() {
     const wordListDiv = document.getElementById('wordList');
+    const useForeignLanguage = document.querySelector('.checkbox').checked;
+
     wordListDiv.innerHTML = '';
 
     if (wordList) {
@@ -84,6 +88,7 @@ function displayWords() {
         const wordsToDisplay = shuffledList.slice(0, Math.min(54, shuffledList.length));
 
         const wordListDiv = document.getElementById('wordList');
+
         const wordsPerRow = 6; // Change to 4 columns
         const wordWidth = 100 / wordsPerRow; // Calculate the width of each word
 
@@ -98,9 +103,13 @@ function displayWords() {
             const wordDiv = document.createElement('div');
             wordDiv.classList.add('word', 'btn', 'btn-one');
             wordDiv.style.width = `calc(${wordWidth}% - 2px)`; // Adjust width with 1px space on each side
-            wordDiv.textContent = wordsToDisplay[i].english;
+            if (useForeignLanguage) {
+                wordDiv.textContent = wordsToDisplay[i].foreign;
+            } else {
+                wordDiv.textContent = wordsToDisplay[i].english;
+            }           
             wordDiv.addEventListener('click', () => {
-                showTranslation(wordsToDisplay[i].foreign)
+                showTranslation(useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
                 wordDiv.classList.add('clicked');
             });
 
