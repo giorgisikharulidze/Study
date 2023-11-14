@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learning a foreign language</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
+
+<!--    <a href="#" id="flipButton" class="btn-flip" data-back="Back" data-front="Front" ></a>*/-->
+
     <input type="file" id="fileInput" accept=".json">
+    <div class="btn-margin"></div>
 
     <label class="switch">
         <input class="checkbox" type="checkbox">
@@ -27,7 +32,7 @@
 
     <div class="btn-margin"></div>
     <div class="box-3">
-        <div class="btn btn-one">
+        <div id="flipButton" class="btn btn-one btn-flip" data-back="Back" data-front="Front">
             <span id="translation"></span>
         </div>
     </div>

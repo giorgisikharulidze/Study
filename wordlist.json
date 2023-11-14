@@ -1,236 +1,622 @@
 {
-    "Sheet1": [
-      {
-        "english": "Hi",
-        "foreign": "გამარჯობა"
-      },
-      {
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },{
-        "english": "Dog",
-        "foreign": "ძაღლი"
-      },
-      {
-        "english": "Cat",
-        "foreign": "კატა"
-      },
-      {
-        "english": "Lion",
-        "foreign": "ლომი"
-      },
-      {
-        "english": "Table",
-        "foreign": "მაგიდა"
-      },
-      {
-        "english": "Pen",
-        "foreign": "კალამი"
-      },
-      {
-        "english": "Door",
-        "foreign": "კარები"
-      },
-      {
-        "english": "Apple",
-        "foreign": "ვაშლი"
-      },
-{
-        "english": "Water",
-        "foreign": "წყალი"
-      },
-      {
-        "english": "Red",
-        "foreign": "წითელი"
-      },
-      {
-        "english": "Yellow",
-        "foreign": "ყვითელი"
-      },
-      {
-        "english": "Pink",
-        "foreign": "ვარდისფერი"
-      },
-      {
-        "english": "One",
-        "foreign": "ერთი"
-      },
-      {
-        "english": "Two",
-        "foreign": "ორი"
-      },
-      {
-        "english": "Three",
-        "foreign": "სამი"
-      },
-      {
-        "english": "Four",
-        "foreign": "ოთხი"
-      },{
-        "english": "Water",
-        "foreign": "წყალი"
-      },
-      {
-        "english": "Red",
-        "foreign": "წითელი"
-      },
-      {
-        "english": "Yellow",
-        "foreign": "ყვითელი"
-      },
-      {
-        "english": "Pink",
-        "foreign": "ვარდისფერი"
-      },
-      {
-        "english": "One",
-        "foreign": "ერთი"
-      },
-      {
-        "english": "Two",
-        "foreign": "ორი"
-      },
-      {
-        "english": "Three",
-        "foreign": "სამი"
-      },
-      {
-        "english": "Four",
-        "foreign": "ოთხი"
-      },{
-        "english": "Water",
-        "foreign": "წყალი"
-      },
-      {
-        "english": "Red",
-        "foreign": "წითელი"
-      },
-      {
-        "english": "Yellow",
-        "foreign": "ყვითელი"
-      },
-      {
-        "english": "Pink",
-        "foreign": "ვარდისფერი"
-      },
-      {
-        "english": "One",
-        "foreign": "ერთი"
-      },
-      {
-        "english": "Two",
-        "foreign": "ორი"
-      },
-      {
-        "english": "Three",
-        "foreign": "სამი"
-      },
-      {
-        "english": "Four",
-        "foreign": "ოთხი"
-      },
-      {
-        "english": "Water",
-        "foreign": "წყალი"
-      },
-      {
-        "english": "Red",
-        "foreign": "წითელი"
-      },
-      {
-        "english": "Yellow",
-        "foreign": "ყვითელი"
-      },
-      {
-        "english": "Pink",
-        "foreign": "ვარდისფერი"
-      },
-      {
-        "english": "One",
-        "foreign": "ერთი"
-      },
-      {
-        "english": "Two",
-        "foreign": "ორი"
-      },
-      {
-        "english": "Three",
-        "foreign": "სამი"
-      },
-      {
-        "english": "Four",
-        "foreign": "ოთხი"
-      },
-      {
-        "english": "Five",
-        "foreign": "ხუთი"
-      }
-    ]
-  }
+  "Sheet1": [
+    {
+      "english": "Hi",
+      "foreign": "გამარჯობა",
+      "english_2": "Hi_2",
+      "foreign_2": "გამარჯობა_2"
+    },
+    {
+      "english": "Dog",
+      "foreign": "ძაღლი",
+      "english_2": "Dog_2",
+      "foreign_2": "ძაღლი_2"
+    },
+    {
+      "english": "Cat",
+      "foreign": "კატა",
+      "english_2": "Cat_2",
+      "foreign_2": "კატა_2"
+    },
+    {
+      "english": "Lion",
+      "foreign": "ლომი",
+      "english_2": "Lion_2",
+      "foreign_2": "ლომი_2"
+    },
+    {
+      "english": "Table",
+      "foreign": "მაგიდა",
+      "english_2": "Table_2",
+      "foreign_2": "მაგიდა_2"
+    },
+    {
+      "english": "Pen",
+      "foreign": "კალამი",
+      "english_2": "Pen_2",
+      "foreign_2": "კალამი_2"
+    },
+    {
+      "english": "Door",
+      "foreign": "კარები",
+      "english_2": "Door_2",
+      "foreign_2": "კარები_2"
+    },
+    {
+      "english": "Apple",
+      "foreign": "ვაშლი",
+      "english_2": "Apple_2",
+      "foreign_2": "ვაშლი_2"
+    },
+    {
+      "english": "Water",
+      "foreign": "წყალი",
+      "english_2": "Water_2",
+      "foreign_2": "წყალი_2"
+    },
+    {
+      "english": "Red",
+      "foreign": "წითელი",
+      "english_2": "Red_2",
+      "foreign_2": "წითელი_2"
+    },
+    {
+      "english": "Yellow",
+      "foreign": "ყვითელი",
+      "english_2": "Yellow_2",
+      "foreign_2": "ყვითელი_2"
+    },
+    {
+      "english": "Pink",
+      "foreign": "ვარდისფერი",
+      "english_2": "Pink_2",
+      "foreign_2": "ვარდისფერი_2"
+    },
+    {
+      "english": "One",
+      "foreign": "ერთი",
+      "english_2": "One_2",
+      "foreign_2": "ერთი_2"
+    },
+    {
+      "english": "Two",
+      "foreign": "ორი",
+      "english_2": "Two_2",
+      "foreign_2": "ორი_2"
+    },
+    {
+      "english": "Three",
+      "foreign": "სამი",
+      "english_2": "Three_2",
+      "foreign_2": "სამი_2"
+    },
+    {
+      "english": "Four",
+      "foreign": "ოთხი",
+      "english_2": "Four_2",
+      "foreign_2": "ოთხი_2"
+    },
+    {
+      "english": "Five",
+      "foreign": "ხუთი",
+      "english_2": "Five_2",
+      "foreign_2": "ხუთი_2"
+    },
+    {
+      "english": "Hi",
+      "foreign": "გამარჯობა",
+      "english_2": "Hi_2",
+      "foreign_2": "გამარჯობა_2"
+    },
+    {
+      "english": "Dog",
+      "foreign": "ძაღლი",
+      "english_2": "Dog_2",
+      "foreign_2": "ძაღლი_2"
+    },
+    {
+      "english": "Cat",
+      "foreign": "კატა",
+      "english_2": "Cat_2",
+      "foreign_2": "კატა_2"
+    },
+    {
+      "english": "Lion",
+      "foreign": "ლომი",
+      "english_2": "Lion_2",
+      "foreign_2": "ლომი_2"
+    },
+    {
+      "english": "Table",
+      "foreign": "მაგიდა",
+      "english_2": "Table_2",
+      "foreign_2": "მაგიდა_2"
+    },
+    {
+      "english": "Pen",
+      "foreign": "კალამი",
+      "english_2": "Pen_2",
+      "foreign_2": "კალამი_2"
+    },
+    {
+      "english": "Door",
+      "foreign": "კარები",
+      "english_2": "Door_2",
+      "foreign_2": "კარები_2"
+    },
+    {
+      "english": "Apple",
+      "foreign": "ვაშლი",
+      "english_2": "Apple_2",
+      "foreign_2": "ვაშლი_2"
+    },
+    {
+      "english": "Water",
+      "foreign": "წყალი",
+      "english_2": "Water_2",
+      "foreign_2": "წყალი_2"
+    },
+    {
+      "english": "Red",
+      "foreign": "წითელი",
+      "english_2": "Red_2",
+      "foreign_2": "წითელი_2"
+    },
+    {
+      "english": "Yellow",
+      "foreign": "ყვითელი",
+      "english_2": "Yellow_2",
+      "foreign_2": "ყვითელი_2"
+    },
+    {
+      "english": "Pink",
+      "foreign": "ვარდისფერი",
+      "english_2": "Pink_2",
+      "foreign_2": "ვარდისფერი_2"
+    },
+    {
+      "english": "One",
+      "foreign": "ერთი",
+      "english_2": "One_2",
+      "foreign_2": "ერთი_2"
+    },
+    {
+      "english": "Two",
+      "foreign": "ორი",
+      "english_2": "Two_2",
+      "foreign_2": "ორი_2"
+    },
+    {
+      "english": "Three",
+      "foreign": "სამი",
+      "english_2": "Three_2",
+      "foreign_2": "სამი_2"
+    },
+    {
+      "english": "Four",
+      "foreign": "ოთხი",
+      "english_2": "Four_2",
+      "foreign_2": "ოთხი_2"
+    },
+    {
+      "english": "Five",
+      "foreign": "ხუთი",
+      "english_2": "Five_2",
+      "foreign_2": "ხუთი_2"
+    },
+    {
+      "english": "Hi",
+      "foreign": "გამარჯობა",
+      "english_2": "Hi_2",
+      "foreign_2": "გამარჯობა_2"
+    },
+    {
+      "english": "Dog",
+      "foreign": "ძაღლი",
+      "english_2": "Dog_2",
+      "foreign_2": "ძაღლი_2"
+    },
+    {
+      "english": "Cat",
+      "foreign": "კატა",
+      "english_2": "Cat_2",
+      "foreign_2": "კატა_2"
+    },
+    {
+      "english": "Lion",
+      "foreign": "ლომი",
+      "english_2": "Lion_2",
+      "foreign_2": "ლომი_2"
+    },
+    {
+      "english": "Table",
+      "foreign": "მაგიდა",
+      "english_2": "Table_2",
+      "foreign_2": "მაგიდა_2"
+    },
+    {
+      "english": "Pen",
+      "foreign": "კალამი",
+      "english_2": "Pen_2",
+      "foreign_2": "კალამი_2"
+    },
+    {
+      "english": "Door",
+      "foreign": "კარები",
+      "english_2": "Door_2",
+      "foreign_2": "კარები_2"
+    },
+    {
+      "english": "Apple",
+      "foreign": "ვაშლი",
+      "english_2": "Apple_2",
+      "foreign_2": "ვაშლი_2"
+    },
+    {
+      "english": "Water",
+      "foreign": "წყალი",
+      "english_2": "Water_2",
+      "foreign_2": "წყალი_2"
+    },
+    {
+      "english": "Red",
+      "foreign": "წითელი",
+      "english_2": "Red_2",
+      "foreign_2": "წითელი_2"
+    },
+    {
+      "english": "Yellow",
+      "foreign": "ყვითელი",
+      "english_2": "Yellow_2",
+      "foreign_2": "ყვითელი_2"
+    },
+    {
+      "english": "Pink",
+      "foreign": "ვარდისფერი",
+      "english_2": "Pink_2",
+      "foreign_2": "ვარდისფერი_2"
+    },
+    {
+      "english": "One",
+      "foreign": "ერთი",
+      "english_2": "One_2",
+      "foreign_2": "ერთი_2"
+    },
+    {
+      "english": "Two",
+      "foreign": "ორი",
+      "english_2": "Two_2",
+      "foreign_2": "ორი_2"
+    },
+    {
+      "english": "Three",
+      "foreign": "სამი",
+      "english_2": "Three_2",
+      "foreign_2": "სამი_2"
+    },
+    {
+      "english": "Four",
+      "foreign": "ოთხი",
+      "english_2": "Four_2",
+      "foreign_2": "ოთხი_2"
+    },
+    {
+      "english": "Five",
+      "foreign": "ხუთი",
+      "english_2": "Five_2",
+      "foreign_2": "ხუთი_2"
+    },
+    {
+      "english": "Hi",
+      "foreign": "გამარჯობა",
+      "english_2": "Hi_2",
+      "foreign_2": "გამარჯობა_2"
+    },
+    {
+      "english": "Dog",
+      "foreign": "ძაღლი",
+      "english_2": "Dog_2",
+      "foreign_2": "ძაღლი_2"
+    },
+    {
+      "english": "Cat",
+      "foreign": "კატა",
+      "english_2": "Cat_2",
+      "foreign_2": "კატა_2"
+    },
+    {
+      "english": "Lion",
+      "foreign": "ლომი",
+      "english_2": "Lion_2",
+      "foreign_2": "ლომი_2"
+    },
+    {
+      "english": "Table",
+      "foreign": "მაგიდა",
+      "english_2": "Table_2",
+      "foreign_2": "მაგიდა_2"
+    },
+    {
+      "english": "Pen",
+      "foreign": "კალამი",
+      "english_2": "Pen_2",
+      "foreign_2": "კალამი_2"
+    },
+    {
+      "english": "Door",
+      "foreign": "კარები",
+      "english_2": "Door_2",
+      "foreign_2": "კარები_2"
+    },
+    {
+      "english": "Apple",
+      "foreign": "ვაშლი",
+      "english_2": "Apple_2",
+      "foreign_2": "ვაშლი_2"
+    },
+    {
+      "english": "Water",
+      "foreign": "წყალი",
+      "english_2": "Water_2",
+      "foreign_2": "წყალი_2"
+    },
+    {
+      "english": "Red",
+      "foreign": "წითელი",
+      "english_2": "Red_2",
+      "foreign_2": "წითელი_2"
+    },
+    {
+      "english": "Yellow",
+      "foreign": "ყვითელი",
+      "english_2": "Yellow_2",
+      "foreign_2": "ყვითელი_2"
+    },
+    {
+      "english": "Pink",
+      "foreign": "ვარდისფერი",
+      "english_2": "Pink_2",
+      "foreign_2": "ვარდისფერი_2"
+    },
+    {
+      "english": "One",
+      "foreign": "ერთი",
+      "english_2": "One_2",
+      "foreign_2": "ერთი_2"
+    },
+    {
+      "english": "Two",
+      "foreign": "ორი",
+      "english_2": "Two_2",
+      "foreign_2": "ორი_2"
+    },
+    {
+      "english": "Three",
+      "foreign": "სამი",
+      "english_2": "Three_2",
+      "foreign_2": "სამი_2"
+    },
+    {
+      "english": "Four",
+      "foreign": "ოთხი",
+      "english_2": "Four_2",
+      "foreign_2": "ოთხი_2"
+    },
+    {
+      "english": "Five",
+      "foreign": "ხუთი",
+      "english_2": "Five_2",
+      "foreign_2": "ხუთი_2"
+    },
+    {
+      "english": "Hi",
+      "foreign": "გამარჯობა",
+      "english_2": "Hi_2",
+      "foreign_2": "გამარჯობა_2"
+    },
+    {
+      "english": "Dog",
+      "foreign": "ძაღლი",
+      "english_2": "Dog_2",
+      "foreign_2": "ძაღლი_2"
+    },
+    {
+      "english": "Cat",
+      "foreign": "კატა",
+      "english_2": "Cat_2",
+      "foreign_2": "კატა_2"
+    },
+    {
+      "english": "Lion",
+      "foreign": "ლომი",
+      "english_2": "Lion_2",
+      "foreign_2": "ლომი_2"
+    },
+    {
+      "english": "Table",
+      "foreign": "მაგიდა",
+      "english_2": "Table_2",
+      "foreign_2": "მაგიდა_2"
+    },
+    {
+      "english": "Pen",
+      "foreign": "კალამი",
+      "english_2": "Pen_2",
+      "foreign_2": "კალამი_2"
+    },
+    {
+      "english": "Door",
+      "foreign": "კარები",
+      "english_2": "Door_2",
+      "foreign_2": "კარები_2"
+    },
+    {
+      "english": "Apple",
+      "foreign": "ვაშლი",
+      "english_2": "Apple_2",
+      "foreign_2": "ვაშლი_2"
+    },
+    {
+      "english": "Water",
+      "foreign": "წყალი",
+      "english_2": "Water_2",
+      "foreign_2": "წყალი_2"
+    },
+    {
+      "english": "Red",
+      "foreign": "წითელი",
+      "english_2": "Red_2",
+      "foreign_2": "წითელი_2"
+    },
+    {
+      "english": "Yellow",
+      "foreign": "ყვითელი",
+      "english_2": "Yellow_2",
+      "foreign_2": "ყვითელი_2"
+    },
+    {
+      "english": "Pink",
+      "foreign": "ვარდისფერი",
+      "english_2": "Pink_2",
+      "foreign_2": "ვარდისფერი_2"
+    },
+    {
+      "english": "One",
+      "foreign": "ერთი",
+      "english_2": "One_2",
+      "foreign_2": "ერთი_2"
+    },
+    {
+      "english": "Two",
+      "foreign": "ორი",
+      "english_2": "Two_2",
+      "foreign_2": "ორი_2"
+    },
+    {
+      "english": "Three",
+      "foreign": "სამი",
+      "english_2": "Three_2",
+      "foreign_2": "სამი_2"
+    },
+    {
+      "english": "Four",
+      "foreign": "ოთხი",
+      "english_2": "Four_2",
+      "foreign_2": "ოთხი_2"
+    },
+    {
+      "english": "Five",
+      "foreign": "ხუთი",
+      "english_2": "Five_2",
+      "foreign_2": "ხუთი_2"
+    },
+    {
+      "english": "Hi",
+      "foreign": "გამარჯობა",
+      "english_2": "Hi_2",
+      "foreign_2": "გამარჯობა_2"
+    },
+    {
+      "english": "Dog",
+      "foreign": "ძაღლი",
+      "english_2": "Dog_2",
+      "foreign_2": "ძაღლი_2"
+    },
+    {
+      "english": "Cat",
+      "foreign": "კატა",
+      "english_2": "Cat_2",
+      "foreign_2": "კატა_2"
+    },
+    {
+      "english": "Lion",
+      "foreign": "ლომი",
+      "english_2": "Lion_2",
+      "foreign_2": "ლომი_2"
+    },
+    {
+      "english": "Table",
+      "foreign": "მაგიდა",
+      "english_2": "Table_2",
+      "foreign_2": "მაგიდა_2"
+    },
+    {
+      "english": "Pen",
+      "foreign": "კალამი",
+      "english_2": "Pen_2",
+      "foreign_2": "კალამი_2"
+    },
+    {
+      "english": "Door",
+      "foreign": "კარები",
+      "english_2": "Door_2",
+      "foreign_2": "კარები_2"
+    },
+    {
+      "english": "Apple",
+      "foreign": "ვაშლი",
+      "english_2": "Apple_2",
+      "foreign_2": "ვაშლი_2"
+    },
+    {
+      "english": "Water",
+      "foreign": "წყალი",
+      "english_2": "Water_2",
+      "foreign_2": "წყალი_2"
+    },
+    {
+      "english": "Red",
+      "foreign": "წითელი",
+      "english_2": "Red_2",
+      "foreign_2": "წითელი_2"
+    },
+    {
+      "english": "Yellow",
+      "foreign": "ყვითელი",
+      "english_2": "Yellow_2",
+      "foreign_2": "ყვითელი_2"
+    },
+    {
+      "english": "Pink",
+      "foreign": "ვარდისფერი",
+      "english_2": "Pink_2",
+      "foreign_2": "ვარდისფერი_2"
+    },
+    {
+      "english": "One",
+      "foreign": "ერთი",
+      "english_2": "One_2",
+      "foreign_2": "ერთი_2"
+    },
+    {
+      "english": "Two",
+      "foreign": "ორი",
+      "english_2": "Two_2",
+      "foreign_2": "ორი_2"
+    },
+    {
+      "english": "Three",
+      "foreign": "სამი",
+      "english_2": "Three_2",
+      "foreign_2": "სამი_2"
+    },
+    {
+      "english": "Four",
+      "foreign": "ოთხი",
+      "english_2": "Four_2",
+      "foreign_2": "ოთხი_2"
+    },
+    {
+      "english": "Five",
+      "foreign": "ხუთი",
+      "english_2": "Five_2",
+      "foreign_2": "ხუთი_2"
+    },
+    {
+      "english": "Testttttttttttttttt",
+      "foreign": "ტესტი",
+      "english_2": null,
+      "foreign_2": null
+    }
+  ]
+}

@@ -189,8 +189,8 @@ body {
 }
 
 #wordList {
-	height: 30px;
-	width: 1400px;
+	height: 20px;
+	width: 1500px;
     margin-top: 10px;
 
 }
@@ -211,6 +211,11 @@ body {
     width: calc(50% - 2px); /* Adjusted width with 1px space on each side */
     margin: 0 1px; /* 1px margin on left and right */
     margin-top: 5px;
+	height: 30px;
+	line-height: 25px;
+	text-align: center;
+	cursor: pointer;
+
 }
 
 
@@ -320,7 +325,6 @@ button, input[type="submit"], input[type="reset"] {
 	display: inline-block;
 	width: 60px;
 	height: 34px;
-	margin-top: 5px;
   }
   
   /* Hide default HTML checkbox */
@@ -378,3 +382,52 @@ button, input[type="submit"], input[type="reset"] {
 	border-radius: 50%;
   }
 
+  .btn-flip {
+	opacity: 1;
+	outline: 0;
+	color: #fff;
+	line-height: 40px;
+	position: relative;
+	text-align: center;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-decoration: none;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+  }
+  .btn-flip:hover:after {
+	opacity: 1;
+	transform: translateY(0) rotateX(0);
+  }
+  .btn-flip:hover:before {
+	opacity: 0;
+	transform: translateY(50%) rotateX(90deg);
+  }
+  .btn-flip:after {
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	color:  #FFF;;
+	display: block;
+	transition: 0.5s;
+	position: absolute;
+	background: coral;
+	content: attr(data-back);
+	transform: translateY(-50%) rotateX(90deg);
+  }
+  .btn-flip:before {
+	top: 0;
+	left: 0;
+	opacity: 1;
+	color: #FFF;
+	display: block;
+	transition: 0.5s;
+	position: relative;
+	background: #66A182;
+	content: attr(data-front);
+	transform: translateY(0) rotateX(0);
+  }
+
+
+  

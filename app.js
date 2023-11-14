@@ -7,45 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const shuffleButton = document.getElementById('shuffleButton');
     shuffleButton.addEventListener('click', shuffleWords);
 
-/*    const defaultFilePath = "C:\\Users\\g.sikharulidze\\Documents\\Study\\wordlist.json";
-
-    if (defaultFilePath) {
-        const reader = new FileReader();
-
-        reader.onload = function (e) {
-            try {
-                // Check if the content is not empty before parsing
-                if (e.target.result.trim() !== '') {
-                    const data = JSON.parse(e.target.result);
-                    wordList = data.Sheet1;
-                    displayWords();
-                } else {
-                    console.error('Error parsing JSON: Empty file');
-                }
-            } catch (error) {
-                console.error('Error parsing JSON:', error);
-            }
-        };
-
-        // Use Blob to create a non-empty file
-        const blob = new Blob(['{}'], { type: 'application/json' });
-        const defaultFile = new File([blob], 'wordlist.json', { type: 'application/json' });
-
-        // Set the files property of the file input
-        Object.defineProperty(fileInput, 'files', {
-            value: [defaultFile],
-            writable: false,
-        });
-
-        // Trigger the change event manually
-        const event = new Event('change', { bubbles: true });
-        fileInput.dispatchEvent(event);
-
-        // Read the content of the default file
-        reader.readAsText(defaultFile);
-    }
-*/
-    fileInput.addEventListener('change', function (e) {
+  fileInput.addEventListener('change', function (e) {
         const file = e.target.files[0];
 
         if (file) {
@@ -77,6 +39,7 @@ function shuffleWords() {
 function displayWords() {
     const wordListDiv = document.getElementById('wordList');
     const useForeignLanguage = document.querySelector('.checkbox').checked;
+    const flipButton = document.getElementById('flipButton');
 
     wordListDiv.innerHTML = '';
 
@@ -85,13 +48,12 @@ function displayWords() {
         const shuffledList = shuffleArray(wordList);
 
         // Take the first 12 elements or fewer if the array is smaller
-        const wordsToDisplay = shuffledList.slice(0, Math.min(54, shuffledList.length));
+        const wordsToDisplay = shuffledList.slice(0, Math.min(52, shuffledList.length));
 
         const wordListDiv = document.getElementById('wordList');
 
-        const wordsPerRow = 6; // Change to 4 columns
+        const wordsPerRow = 4; // Change to 4 columns
         const wordWidth = 100 / wordsPerRow; // Calculate the width of each word
-
         for (let i = 0; i < wordsToDisplay.length; i++) {
             // Create a new row for every 'wordsPerRow' words
             if (i % wordsPerRow === 0) {
@@ -103,13 +65,20 @@ function displayWords() {
             const wordDiv = document.createElement('div');
             wordDiv.classList.add('word', 'btn', 'btn-one');
             wordDiv.style.width = `calc(${wordWidth}% - 2px)`; // Adjust width with 1px space on each side
+
+            
+
             if (useForeignLanguage) {
                 wordDiv.textContent = wordsToDisplay[i].foreign;
+
             } else {
                 wordDiv.textContent = wordsToDisplay[i].english;
             }           
+            
             wordDiv.addEventListener('click', () => {
                 showTranslation(useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
+                flipButton.setAttribute('data-front', useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
+                flipButton.setAttribute('data-back', useForeignLanguage ? wordsToDisplay[i].foreign_2 ?  wordsToDisplay[i].foreign_2:''   : wordsToDisplay[i].english_2 ? wordsToDisplay[i].english_2 :'' );
                 wordDiv.classList.add('clicked');
             });
 
