@@ -80,12 +80,13 @@ function displayWords() {
         // Shuffle the wordList array
         const shuffledList = shuffleArray(wordList);
 
-        // Take the first 10 elements or fewer if the array is smaller
-        const wordsToDisplay = shuffledList.slice(0, Math.min(12, shuffledList.length));
+        // Take the first 12 elements or fewer if the array is smaller
+        const wordsToDisplay = shuffledList.slice(0, Math.min(54, shuffledList.length));
 
         const wordListDiv = document.getElementById('wordList');
-        const wordsPerRow = 6;
-        
+        const wordsPerRow = 6; // Change to 4 columns
+        const wordWidth = 100 / wordsPerRow; // Calculate the width of each word
+
         for (let i = 0; i < wordsToDisplay.length; i++) {
             // Create a new row for every 'wordsPerRow' words
             if (i % wordsPerRow === 0) {
@@ -93,25 +94,22 @@ function displayWords() {
                 row.classList.add('row');
                 wordListDiv.appendChild(row);
             }
-        
+
             const wordDiv = document.createElement('div');
             wordDiv.classList.add('word', 'btn', 'btn-one');
+            wordDiv.style.width = `calc(${wordWidth}% - 2px)`; // Adjust width with 1px space on each side
             wordDiv.textContent = wordsToDisplay[i].english;
             wordDiv.addEventListener('click', () => {
                 showTranslation(wordsToDisplay[i].foreign)
                 wordDiv.classList.add('clicked');
-
             });
-        
+
             // Append the word to the current row
             row.appendChild(wordDiv);
-        
-            //console.log('Adding word:', wordsToDisplay[i].english);
         }
-        
-   //     console.log('Number of words added:', wordListDiv.childElementCount);
     }
 }
+
 
 // Helper function to shuffle an array
 function shuffleArray(array) {

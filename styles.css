@@ -26,8 +26,9 @@ div[class*=box] {
 	line-height: 50px;
 	height: 50px;
 	text-align: center;
-	width: 250px;
+	width: 500px;
 	cursor: pointer;
+
 }
 
 /* 
@@ -188,8 +189,8 @@ body {
 }
 
 #wordList {
-	height: 50px;
-	width: 250px;
+	height: 30px;
+	width: 1400px;
     margin-top: 10px;
 
 }
@@ -198,7 +199,7 @@ body {
 }
 
 .word {
-    width: 50%;
+    width: 100%;
     box-sizing: border-box; /* Ensures padding and border are included in the width */
     padding: 5px;
     /* Add other styling as needed */
@@ -291,11 +292,11 @@ input[type="file"] {
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    padding-top: 20px;
+    padding-top: 10px;
     background-color: aliceblue;
   }
 
-  .btn-margin {margin-top: 10px;
+  .btn-margin {margin-top: 5px;
 }
 button, input[type="submit"], input[type="reset"] {
 	background: none;
