@@ -97,7 +97,11 @@ function displayWords() {
             const wordDiv = document.createElement('div');
             wordDiv.classList.add('word', 'btn', 'btn-one');
             wordDiv.textContent = wordsToDisplay[i].english;
-            wordDiv.addEventListener('click', () => showTranslation(wordsToDisplay[i].foreign));
+            wordDiv.addEventListener('click', () => {
+                showTranslation(wordsToDisplay[i].foreign)
+                wordDiv.classList.add('clicked');
+
+            });
         
             // Append the word to the current row
             row.appendChild(wordDiv);

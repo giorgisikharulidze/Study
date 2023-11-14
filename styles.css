@@ -306,3 +306,7 @@ button, input[type="submit"], input[type="reset"] {
 	cursor: pointer;
 	outline: inherit;
 }
+.word.clicked {
+    /* Add your styles for the clicked word here */
+    background-color:#FF8000 /* Your desired color */;
+}
