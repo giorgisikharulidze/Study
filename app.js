@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const shuffleButton = document.getElementById('shuffleButton');
     shuffleButton.addEventListener('click', shuffleWords);
 
-    fileInput.addEventListener('change', function (e) {
+    fileInput.addEventListener('change', handleFile);
+   /* fileInput.addEventListener('change', function (e) {
         const file = e.target.files[0];
 
         if (file) {
@@ -28,7 +29,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
         const checkbox = document.querySelector('.checkbox');
         checkbox.addEventListener('change', displayWords);
-    });
+    });*/
+
+    const checkbox = document.querySelector('.checkbox');
+    checkbox.addEventListener('change', displayWords);
+
 });
 
 
@@ -112,13 +117,50 @@ function handleFile(event) {
     if (file) {
         const reader = new FileReader();
         reader.onload = function (e) {
-            const jsonString = e.target.result;
-            wordList = JSON.parse(jsonString);
-            currentIndex = 0; // Reset currentIndex
-            displayWords();
+            try {
+                const extension = file.name.split('.').pop().toLowerCase();
+
+                if (extension === 'xlsx') {
+                    // Handle Excel (xlsx) file
+                    const workbook = XLSX.read(e.target.result, { type: 'binary' });
+                    const sheetName = workbook.SheetNames[0];
+                    const sheet = workbook.Sheets[sheetName];
+                    const jsonData = XLSX.utils.sheet_to_json(sheet);
+                    wordList = jsonData;
+                } else if (extension === 'json') {
+                    // Handle JSON file
+                    wordList = JSON.parse(e.target.result);
+                } else {
+                    console.error('Unsupported file type');
+                    return;
+                }
+
+                currentIndex = 0;
+                displayWords();
+            } catch (error) {
+                console.error('Error processing file:', error);
+            }
         };
-        reader.readAsText(file);
+
+        if (file.name.endsWith('.json')) {
+            reader.onload = function (e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    wordList = data.Sheet1;
+                    displayWords();
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                }
+            };
+
+            reader.readAsText(file);
+
+
+        } else {
+            reader.readAsBinaryString(file);
+        }
     }
+
 }
 
 /*
