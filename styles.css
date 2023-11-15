@@ -430,4 +430,28 @@ button, input[type="submit"], input[type="reset"] {
   }
 
 
-  
+/* Add this CSS to your existing styles */
+
+/* ... Your existing styles ... */
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    .btn {
+        width: 90%; /* Adjust the button width for smaller screens */
+    }
+
+    .word {
+        width: 100%; /* Full width for smaller screens */
+        margin: 0 0 5px 0; /* Adjusted margin for smaller screens */
+    }
+
+    .word-container {
+        display: flex;
+        flex-wrap: nowrap; /* Prevent word buttons from wrapping on smaller screens */
+        overflow-x: auto; /* Add horizontal scrollbar when needed */
+        justify-content: space-around;
+    }
+}
+
+/* ... Your existing styles ... */
