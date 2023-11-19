@@ -5,6 +5,8 @@ let currentIndex = 0; // Initialize currentIndex
 let wordList; // Declare wordList at the top level
 // Add a variable to keep track of the current set of words
 let currentSetIndex = 0;
+let IsShuffle = 0;
+let wordListFirst;
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -38,6 +40,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const checkbox = document.querySelector('.checkbox');
     checkbox.addEventListener('change', displayWords);
+    const checkboxIsShuffle = document.querySelector('.isShuffle');
+    checkboxIsShuffle.addEventListener('change', function (e) {
+
+            IsShuffle=document.querySelector('.isShuffle').checked;
+
+    });
+ 
 //    const nextButton = document.getElementById('nextButton');
 //    nextButton.addEventListener('click', showNextWords);
 });
@@ -46,7 +55,17 @@ document.addEventListener('DOMContentLoaded', function () {
 function shuffleWords() {
     currentIndex = 0;
     currentSetIndex = 0;
-    displayWords(wordList.slice(0, wordCountsInPage));
+    if(IsShuffle)
+    {
+        displayWords(wordListFirst.slice(0, wordCountsInPage));
+
+    }
+    else
+    {
+        displayWords(wordList.slice(0, wordCountsInPage));
+
+    }
+
 }
 function displayWords(wordList) {
     const wordListDiv = document.getElementById('wordList');
@@ -134,20 +153,47 @@ function handleFile(event) {
                     const sheetName = workbook.SheetNames[0];
                     const sheet = workbook.Sheets[sheetName];
                     const jsonData = XLSX.utils.sheet_to_json(sheet);
-//                    wordList = jsonData;
-                    wordList = shuffleArray(jsonData);
+                    wordListFirst= jsonData;
+                    if(IsShuffle)
+                    {
+                        wordList = shuffleArray(jsonData);
+                    }
+                    else
+                    {
+                    wordList = jsonData;
+                    }
                 } else if (extension === 'json') {
                     // Handle JSON file
                     //wordList = JSON.parse(e.target.result);
-                    wordList = shuffleArray(JSON.parse(e.target.result));
-                } else {
+                    wordListFirst= JSON.parse(e.target.result);
+
+                    if(IsShuffle)
+                    {
+                        wordList = shuffleArray(JSON.parse(e.target.result));
+                    }
+                    else
+                    {
+                    wordList = JSON.parse(e.target.result)
+                    }
+                    
+                } 
+                else {
                     console.error('Unsupported file type');
                     return;
                 }
 
+
                 currentIndex = 0;
                 currentSetIndex = 0
-                displayWords(wordList.slice(0, wordCountsInPage));
+                if(IsShuffle)
+                {
+                    displayWords(wordList.slice(0, wordCountsInPage));
+                }
+                else
+                {
+                    displayWords(wordList);
+                }
+
             } catch (error) {
                 console.error('Error processing file:', error);
             }
@@ -160,8 +206,17 @@ function handleFile(event) {
 //                    wordList = data.Sheet1;
                     wordList = shuffleArray(data.Sheet1);
                     currentSetIndex = 0
-                    displayWords(wordList.slice(0, wordCountsInPage)); 
-                    } catch (error) {
+                    if(IsShuffle)
+                    {
+                        displayWords(wordList.slice(0, wordCountsInPage));
+    
+                    }
+                    else
+                    {
+                        displayWords(wordList);
+                    }
+    
+                } catch (error) {
                     console.error('Error parsing JSON:', error);
                 }
             };
