@@ -27,7 +27,7 @@ div[class*=box] {
 	line-height: 50px;
 	height: 50px;
 	text-align: center;
-	width: 700px;
+	width: 800px;
 	cursor: pointer;
 
 }
@@ -623,7 +623,7 @@ button, input[type="submit"], input[type="reset"] {
 
 #shuffleButton,
 #nextButton {
-  width: 350px; /* Set the width to match the original button size */
+  width: 400px; /* Set the width to match the original button size */
 }
 
 
