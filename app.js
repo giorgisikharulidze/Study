@@ -303,12 +303,27 @@ function displayQuestionPopup(clickedWord,wordDiv,front,back) {
     const flipButton = document.getElementById('flipButton');
     flipButton.setAttribute('data-front', '');
     flipButton.setAttribute('data-back', '');
+    let foreignValue;
+    let ans1;
+    let ans2;
+    let ans3;
     
-    let result;
-    let foreignValue = clickedWord.foreign;
-    let ans1 = clickedWord.ans_1;
-    let ans2 = clickedWord.ans_2;
-    let ans3 = clickedWord.ans_3;
+    if(useForeignLanguage)
+    {
+        foreignValue = clickedWord.english;
+        ans1 = clickedWord.f_ans_1;
+        ans2 = clickedWord.f_ans_2;
+        ans3 = clickedWord.f_ans_3;
+    
+    }
+    else
+    {
+        foreignValue = clickedWord.foreign;
+        ans1 = clickedWord.ans_1;
+        ans2 = clickedWord.ans_2;
+        ans3 = clickedWord.ans_3;    
+    }
+
 
     // Create an array with the answers (including the correct one)
     const answers = [foreignValue, ans1, ans2, ans3];
