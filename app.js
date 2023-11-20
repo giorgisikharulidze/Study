@@ -208,6 +208,11 @@ function handleFile(event) {
                 currentIndex = 0;
                 currentSetIndex = 0
                 
+            // Call fillDefaultAnswer before displaying words
+            if(document.querySelector('.defaultAns').checked)
+            {
+                wordList = fillDefaultAnswer(wordList);
+            }
                 displayWords(wordList.slice(0, wordCountsInPage));
 
             } catch (error) {
@@ -300,6 +305,7 @@ function showNextWords() {
 
 
 function displayQuestionPopup(clickedWord,wordDiv,front,back) {
+    clickedWord=fillDefaultAnswer(clickedWord);
     // Get the clicked word's values
     const useForeignLanguage = document.querySelector('.checkbox').checked;
     const flipButton = document.getElementById('flipButton');
@@ -309,9 +315,12 @@ function displayQuestionPopup(clickedWord,wordDiv,front,back) {
     let ans1;
     let ans2;
     let ans3;
+    let question;
+
     
     if(useForeignLanguage)
     {
+        question=clickedWord.foreign;
         foreignValue = clickedWord.english;
         ans1 = clickedWord.f_ans_1;
         ans2 = clickedWord.f_ans_2;
@@ -320,6 +329,7 @@ function displayQuestionPopup(clickedWord,wordDiv,front,back) {
     }
     else
     {
+        question=clickedWord.english;
         foreignValue = clickedWord.foreign;
         ans1 = clickedWord.ans_1;
         ans2 = clickedWord.ans_2;
@@ -337,7 +347,7 @@ function displayQuestionPopup(clickedWord,wordDiv,front,back) {
     const questionPopup = document.createElement('div');
     questionPopup.classList.add('question-popup');
     questionPopup.innerHTML = `
-        <p>What is the translation of <strong>${foreignValue}</strong>?</p>
+        <p>What is the translation of <strong>${question}</strong>?</p>
         <ul>
             ${shuffledAnswers.map(answer => `<li>${answer}</li>`).join('')}
         </ul>
@@ -371,4 +381,41 @@ function displayQuestionPopup(clickedWord,wordDiv,front,back) {
     });
 
 
+}
+
+
+
+
+
+function fillDefaultAnswer(wordList) {
+    // Loop through each word in the wordList
+    for (let i = 0; i < wordList.length; i++) {
+        // Generate random indices for ans_1, ans_2, ans_3
+        const ansIndices = getRandomIndices(wordList.length, i);
+        // Fill ans_1, ans_2, ans_3 from foreign column values
+        wordList[i].ans_1 = wordList[ansIndices[0]].foreign;
+        wordList[i].ans_2 = wordList[ansIndices[1]].foreign;
+        wordList[i].ans_3 = wordList[ansIndices[2]].foreign;
+
+        // Generate random indices for f_ans_1, f_ans_2, f_ans_3
+        const fAnsIndices = getRandomIndices(wordList.length, i);
+        // Fill f_ans_1, f_ans_2, f_ans_3 from english column values
+        wordList[i].f_ans_1 = wordList[fAnsIndices[0]].english;
+        wordList[i].f_ans_2 = wordList[fAnsIndices[1]].english;
+        wordList[i].f_ans_3 = wordList[fAnsIndices[2]].english;
+    }
+
+    return wordList;
+}
+
+// Helper function to generate random indices excluding the current index
+function getRandomIndices(count, currentIndex) {
+    const indices = [];
+    while (indices.length < count - 1) {
+        const randomIndex = Math.floor(Math.random() * count);
+        if (randomIndex !== currentIndex && !indices.includes(randomIndex)) {
+            indices.push(randomIndex);
+        }
+    }
+    return indices;
 }

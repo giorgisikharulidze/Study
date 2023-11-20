@@ -555,6 +555,10 @@ button, input[type="submit"], input[type="reset"] {
     border: 1px solid #888;
     background-color: #ddd;
   }  
+  .checkbox:defaultAns{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }  
 
   
 
