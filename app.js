@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
         checkbox.addEventListener('change', displayWords);
     });*/
 
-    const checkbox = document.querySelector('.checkbox');
-    checkbox.addEventListener('change', displayWords);
+ //   const checkbox = document.querySelector('.checkbox');
+//    checkbox.addEventListener('change', displayWords(wordList.slice(0, wordCountsInPage)));
     const checkboxIsShuffle = document.querySelector('.isShuffle');
     checkboxIsShuffle.addEventListener('change', function (e) {
 
@@ -63,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
 function shuffleWords() {
     currentIndex = 0;
     currentSetIndex = 0;
+    if(wordList[0].english.length>0){
     if(IsShuffle)
     {
         displayWords(wordList.slice(0, wordCountsInPage));
@@ -73,6 +74,7 @@ function shuffleWords() {
         displayWords(wordListFirst.slice(0, wordCountsInPage));
 
 
+    }
     }
 
 }
