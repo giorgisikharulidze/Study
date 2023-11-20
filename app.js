@@ -254,6 +254,7 @@ function handleFile(event) {
     document.getElementById("isShuffleId").disabled = true;
     document.getElementById("quizId").disabled = true;
     document.getElementById("languageCheckboxId").disabled = true;
+    document.getElementById("defaultAnsId").disabled = true;
 
 
 }
@@ -376,7 +377,7 @@ function displayQuestionPopup(clickedWord,wordDiv,front,back) {
                 questionPopup.remove();
                 flipButton.setAttribute('data-front', front);
                 flipButton.setAttribute('data-back', back);
-                        }, 1500);
+                        }, 1000);
         });
     });
 
