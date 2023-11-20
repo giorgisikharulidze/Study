@@ -21,27 +21,33 @@
   </div>
 -->
 <body>
-    <input type="file" id="fileInput" accept=".xlsx, .json">
-    <div class="btn-margin"></div>
 
     <div class=".checkbox-container">
     <label class="switch">
-        <input class="checkbox" type="checkbox">
-        <span class="slider round">Language</span>
+        <input id="languageCheckboxId" class="checkbox" type="checkbox">
+        <span class="slider round" title="* Enable - Display english value. &#010;* Disable - Display foreign value.">Language</span>
     </label>
     <label class="switch">
-        <input class="isShuffle" type="checkbox">
-        <span class="slider round">Shuffle</span>
+        <input id="isShuffleId" class="isShuffle" type="checkbox" >
+        <span class="slider round" title="* Enable - Display word of random all words. &#010;* Disable - Display word of random first pages words.">Shuffle</span>
     </label>
 
     <label class="switch">
-        <input class="" type="checkbox">
+        <input id="quizId" class="quizMode" type="checkbox">
         <span class="slider round">Quiz mode</span>
     </label>
 
+    <label class="switchCopy">
+        <input type="text"  id="inpCountId" class="slider round inp" placeholder="Display count per page" title="* Max Count will be 52. &#010;* Default value is 52.">
+    </label>
 
     </div>
     <div class="btn-margin"></div>
+    <div class="btn-margin"></div>
+
+    <input type="file" id="fileInput" accept=".xlsx, .json" title="Before choose file, fill all checkbox and text box fields (gray collor fields), because after choosed file, will not avaliable change value.">
+    <div class="btn-margin"></div>
+
 
     <div class="button-container">
         <button id="shuffleButton" onclick="shuffleWords()">

@@ -1,11 +1,12 @@
 //https://codebeautify.org/excel-to-json
+let maxWordCountsInPage = 52;
 let wordCountsInPage = 52;
 
 let currentIndex = 0; // Initialize currentIndex
 let wordList; // Declare wordList at the top level
 // Add a variable to keep track of the current set of words
 let currentSetIndex = 0;
-let IsShuffle = 0;
+let IsShuffle;
 let wordListFirst;
 
 
@@ -13,6 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
     const fileInput = document.getElementById('fileInput');
     const shuffleButton = document.getElementById('shuffleButton');
     shuffleButton.addEventListener('click', shuffleWords);
+    //get Count from text field, if empty set  wordCountsInPage, max value   is wordCountsInPage
+    wordCountsInPage=parseInt(document.getElementById('inpCountId').value? document.getElementById('inpCountId').value :wordCountsInPage);
+    wordCountsInPage=Math.min(wordCountsInPage,maxWordCountsInPage);
+    IsShuffle=document.querySelector('.isShuffle').checked;
 
     fileInput.addEventListener('change', handleFile);
    /* fileInput.addEventListener('change', function (e) {
@@ -44,8 +49,11 @@ document.addEventListener('DOMContentLoaded', function () {
     checkboxIsShuffle.addEventListener('change', function (e) {
 
             IsShuffle=document.querySelector('.isShuffle').checked;
+//            handleFile({ target: { files: [fileInput.files[0]] } }); // Reload words based on new IsShuffle value
 
     });
+ 
+
  
 //    const nextButton = document.getElementById('nextButton');
 //    nextButton.addEventListener('click', showNextWords);
@@ -57,12 +65,13 @@ function shuffleWords() {
     currentSetIndex = 0;
     if(IsShuffle)
     {
-        displayWords(wordListFirst.slice(0, wordCountsInPage));
+        displayWords(wordList.slice(0, wordCountsInPage));
 
     }
     else
     {
-        displayWords(wordList.slice(0, wordCountsInPage));
+        displayWords(wordListFirst.slice(0, wordCountsInPage));
+
 
     }
 
@@ -71,6 +80,9 @@ function displayWords(wordList) {
     const wordListDiv = document.getElementById('wordList');
     const useForeignLanguage = document.querySelector('.checkbox').checked;
     const flipButton = document.getElementById('flipButton');
+    const useQuezeMode = document.querySelector('.quizMode').checked;
+    wordCountsInPage=parseInt(document.getElementById('inpCountId').value? document.getElementById('inpCountId').value :wordCountsInPage);
+    wordCountsInPage=Math.min(wordCountsInPage,maxWordCountsInPage);
 
     wordListDiv.innerHTML = '';
 
@@ -112,6 +124,14 @@ function displayWords(wordList) {
                 flipButton.setAttribute('data-front', useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign);
                 flipButton.setAttribute('data-back', useForeignLanguage ? wordsToDisplay[i].foreign_2 ? wordsToDisplay[i].foreign_2 : '' : wordsToDisplay[i].english_2 ? wordsToDisplay[i].english_2 : '');
                 wordDiv.classList.add('clicked');
+                     // Display a question popup with the clicked item's value and four approximate answers
+                
+                     if(useQuezeMode)
+                     {
+                        displayQuestionPopup(wordsToDisplay[i],wordDiv)
+                        
+                     }
+            
             });
 
             // Append the word to the current row
@@ -185,14 +205,8 @@ function handleFile(event) {
 
                 currentIndex = 0;
                 currentSetIndex = 0
-                if(IsShuffle)
-                {
-                    displayWords(wordList.slice(0, wordCountsInPage));
-                }
-                else
-                {
-                    displayWords(wordList);
-                }
+                
+                displayWords(wordList.slice(0, wordCountsInPage));
 
             } catch (error) {
                 console.error('Error processing file:', error);
@@ -228,6 +242,12 @@ function handleFile(event) {
             reader.readAsBinaryString(file);
         }
     }
+
+    document.getElementById("inpCountId").disabled = true;
+    document.getElementById("isShuffleId").disabled = true;
+    document.getElementById("quizId").disabled = true;
+    document.getElementById("languageCheckboxId").disabled = true;
+
 
 }
 
@@ -272,4 +292,60 @@ function showNextWords() {
         // If no more words, you can handle it as you wish (e.g., start over or display a message)
         console.log('No more words to display.');
     }
+}
+
+
+
+
+function displayQuestionPopup(clickedWord,wordDiv) {
+    // Get the clicked word's values
+    const useForeignLanguage = document.querySelector('.checkbox').checked;
+    let result;
+    let foreignValue = clickedWord.foreign;
+    let ans1 = clickedWord.ans_1;
+    let ans2 = clickedWord.ans_2;
+    let ans3 = clickedWord.ans_3;
+
+    // Create an array with the answers (including the correct one)
+    const answers = [foreignValue, ans1, ans2, ans3];
+
+    // Shuffle the answers array
+    const shuffledAnswers = shuffleArray(answers);
+
+    // Display the question popup
+    const questionPopup = document.createElement('div');
+    questionPopup.classList.add('question-popup');
+    questionPopup.innerHTML = `
+        <p>What is the translation of <strong>${foreignValue}</strong>?</p>
+        <ul>
+            ${shuffledAnswers.map(answer => `<li>${answer}</li>`).join('')}
+        </ul>
+    `;
+
+    // Append the question popup to the body
+    document.body.appendChild(questionPopup);
+
+    // Add click event listeners to each answer
+    questionPopup.querySelectorAll('li').forEach(answerElement => {
+        answerElement.addEventListener('click', function () {
+            // Check if the clicked answer is correct
+            const isCorrect = answerElement.textContent === foreignValue;
+            result =isCorrect;
+
+            // Highlight the correct and incorrect answers
+            answerElement.style.backgroundColor = isCorrect ? 'green' : 'red';
+            answerElement.style.color = 'white';
+            wordDiv.style.backgroundColor = isCorrect ? 'green' : 'red';
+            wordDiv.style.color = 'white';
+
+            wordDiv.classList.add('answerElement');
+
+            // Close the question popup after a short delay
+            setTimeout(() => {
+                questionPopup.remove();
+            }, 1000);
+        });
+    });
+
+
 }

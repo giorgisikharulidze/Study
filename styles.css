@@ -239,7 +239,7 @@ input[type="file"] {
   }
   
   input[type="file"]::file-selector-button {
-    width: 136px;
+    width: 120px;
     color: transparent;
   }
   
@@ -317,10 +317,6 @@ button, input[type="submit"], input[type="reset"] {
     /* Add your styles for the clicked word here */
     background-color:#FF8000 /* Your desired color */;
 }
-
-
-
-/* The switch - the box around the slider */
 .switch {
 	position: relative;
 	display: inline-block;
@@ -336,6 +332,17 @@ button, input[type="submit"], input[type="reset"] {
 	width: 0;
 	height: 0;
   }
+
+  .switchCopy {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 34px;
+    text-align: center;
+    line-height: 30px;
+    }
+    
+    
   
   /* The slider */
   .slider {
@@ -627,4 +634,55 @@ button, input[type="submit"], input[type="reset"] {
   margin-top: 10px;
   width: 100px;
 }
+
+
+.question-popup{
+  background-color: #0964b0;
+  z-index: 1;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 15px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 400px;
+  height: 150px;
+  padding-left: 10px;
+}
+
+.inp{
+  background-color: #CCCCCC;
+  color: black;
+	width: 198px;
+	height: 32px;
+  text-align: center;
+  line-height: 0px;
+  opacity: 1;
+  border: 0;
+  font-weight: bold;
+  }
+  
+  .inp::placeholder {
+    opacity: 0.5;
+    color: black;
+  }
+  .inp:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }  
+  .isShuffle:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }  
+  .checkbox:hover{
+    border: 1px solid #888;
+    background-color: #ddd;
+  }  
+
+  
+
+.question-popup.answerElement {
+  font-weight: unset;
+}
+
+
+
+
+
+
 
