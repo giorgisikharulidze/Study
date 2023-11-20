@@ -128,7 +128,7 @@ function displayWords(wordList) {
                 
                      if(useQuezeMode)
                      {
-                        displayQuestionPopup(wordsToDisplay[i],wordDiv)
+                        displayQuestionPopup(wordsToDisplay[i],wordDiv,useForeignLanguage ? wordsToDisplay[i].english : wordsToDisplay[i].foreign,useForeignLanguage ? wordsToDisplay[i].foreign_2 ? wordsToDisplay[i].foreign_2 : '' : wordsToDisplay[i].english_2 ? wordsToDisplay[i].english_2 : '')
                         
                      }
             
@@ -297,9 +297,13 @@ function showNextWords() {
 
 
 
-function displayQuestionPopup(clickedWord,wordDiv) {
+function displayQuestionPopup(clickedWord,wordDiv,front,back) {
     // Get the clicked word's values
     const useForeignLanguage = document.querySelector('.checkbox').checked;
+    const flipButton = document.getElementById('flipButton');
+    flipButton.setAttribute('data-front', '');
+    flipButton.setAttribute('data-back', '');
+    
     let result;
     let foreignValue = clickedWord.foreign;
     let ans1 = clickedWord.ans_1;
@@ -343,7 +347,9 @@ function displayQuestionPopup(clickedWord,wordDiv) {
             // Close the question popup after a short delay
             setTimeout(() => {
                 questionPopup.remove();
-            }, 1000);
+                flipButton.setAttribute('data-front', front);
+                flipButton.setAttribute('data-back', back);
+                        }, 1500);
         });
     });
 
