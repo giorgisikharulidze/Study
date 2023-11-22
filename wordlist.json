@@ -1,620 +1,3514 @@
 {
   "Sheet1": [
     {
-      "english": "Hi",
-      "foreign": "გამარჯობა",
-      "english_2": "Hi_2",
-      "foreign_2": "გამარჯობა_2"
-    },
-    {
-      "english": "Dog",
-      "foreign": "ძაღლი",
-      "english_2": "Dog_2",
-      "foreign_2": "ძაღლი_2"
-    },
-    {
-      "english": "Cat",
-      "foreign": "კატა",
-      "english_2": "Cat_2",
-      "foreign_2": "კატა_2"
-    },
-    {
-      "english": "Lion",
-      "foreign": "ლომი",
-      "english_2": "Lion_2",
-      "foreign_2": "ლომი_2"
-    },
-    {
-      "english": "Table",
-      "foreign": "მაგიდა",
-      "english_2": "Table_2",
-      "foreign_2": "მაგიდა_2"
-    },
-    {
-      "english": "Pen",
-      "foreign": "კალამი",
-      "english_2": "Pen_2",
-      "foreign_2": "კალამი_2"
-    },
-    {
-      "english": "Door",
-      "foreign": "კარები",
-      "english_2": "Door_2",
-      "foreign_2": "კარები_2"
-    },
-    {
-      "english": "Apple",
-      "foreign": "ვაშლი",
-      "english_2": "Apple_2",
-      "foreign_2": "ვაშლი_2"
-    },
-    {
-      "english": "Water",
-      "foreign": "წყალი",
-      "english_2": "Water_2",
-      "foreign_2": "წყალი_2"
-    },
-    {
-      "english": "Red",
-      "foreign": "წითელი",
-      "english_2": "Red_2",
-      "foreign_2": "წითელი_2"
-    },
-    {
-      "english": "Yellow",
-      "foreign": "ყვითელი",
-      "english_2": "Yellow_2",
-      "foreign_2": "ყვითელი_2"
-    },
-    {
-      "english": "Pink",
-      "foreign": "ვარდისფერი",
-      "english_2": "Pink_2",
-      "foreign_2": "ვარდისფერი_2"
-    },
-    {
-      "english": "One",
-      "foreign": "ერთი",
-      "english_2": "One_2",
-      "foreign_2": "ერთი_2"
-    },
-    {
-      "english": "Two",
-      "foreign": "ორი",
-      "english_2": "Two_2",
-      "foreign_2": "ორი_2"
-    },
-    {
-      "english": "Three",
-      "foreign": "სამი",
-      "english_2": "Three_2",
-      "foreign_2": "სამი_2"
-    },
-    {
-      "english": "Four",
-      "foreign": "ოთხი",
-      "english_2": "Four_2",
-      "foreign_2": "ოთხი_2"
-    },
-    {
-      "english": "Five",
-      "foreign": "ხუთი",
-      "english_2": "Five_2",
-      "foreign_2": "ხუთი_2"
-    },
-    {
-      "english": "Hi",
-      "foreign": "გამარჯობა",
-      "english_2": "Hi_2",
-      "foreign_2": "გამარჯობა_2"
-    },
-    {
-      "english": "Dog",
-      "foreign": "ძაღლი",
-      "english_2": "Dog_2",
-      "foreign_2": "ძაღლი_2"
-    },
-    {
-      "english": "Cat",
-      "foreign": "კატა",
-      "english_2": "Cat_2",
-      "foreign_2": "კატა_2"
-    },
-    {
-      "english": "Lion",
-      "foreign": "ლომი",
-      "english_2": "Lion_2",
-      "foreign_2": "ლომი_2"
-    },
-    {
-      "english": "Table",
-      "foreign": "მაგიდა",
-      "english_2": "Table_2",
-      "foreign_2": "მაგიდა_2"
-    },
-    {
-      "english": "Pen",
-      "foreign": "კალამი",
-      "english_2": "Pen_2",
-      "foreign_2": "კალამი_2"
-    },
-    {
-      "english": "Door",
-      "foreign": "კარები",
-      "english_2": "Door_2",
-      "foreign_2": "კარები_2"
-    },
-    {
-      "english": "Apple",
-      "foreign": "ვაშლი",
-      "english_2": "Apple_2",
-      "foreign_2": "ვაშლი_2"
-    },
-    {
-      "english": "Water",
-      "foreign": "წყალი",
-      "english_2": "Water_2",
-      "foreign_2": "წყალი_2"
-    },
-    {
-      "english": "Red",
-      "foreign": "წითელი",
-      "english_2": "Red_2",
-      "foreign_2": "წითელი_2"
-    },
-    {
-      "english": "Yellow",
-      "foreign": "ყვითელი",
-      "english_2": "Yellow_2",
-      "foreign_2": "ყვითელი_2"
-    },
-    {
-      "english": "Pink",
-      "foreign": "ვარდისფერი",
-      "english_2": "Pink_2",
-      "foreign_2": "ვარდისფერი_2"
-    },
-    {
-      "english": "One",
-      "foreign": "ერთი",
-      "english_2": "One_2",
-      "foreign_2": "ერთი_2"
-    },
-    {
-      "english": "Two",
-      "foreign": "ორი",
-      "english_2": "Two_2",
-      "foreign_2": "ორი_2"
-    },
-    {
-      "english": "Three",
-      "foreign": "სამი",
-      "english_2": "Three_2",
-      "foreign_2": "სამი_2"
-    },
-    {
-      "english": "Four",
-      "foreign": "ოთხი",
-      "english_2": "Four_2",
-      "foreign_2": "ოთხი_2"
-    },
-    {
-      "english": "Five",
-      "foreign": "ხუთი",
-      "english_2": "Five_2",
-      "foreign_2": "ხუთი_2"
-    },
-    {
-      "english": "Hi",
-      "foreign": "გამარჯობა",
-      "english_2": "Hi_2",
-      "foreign_2": "გამარჯობა_2"
-    },
-    {
-      "english": "Dog",
-      "foreign": "ძაღლი",
-      "english_2": "Dog_2",
-      "foreign_2": "ძაღლი_2"
-    },
-    {
-      "english": "Cat",
-      "foreign": "კატა",
-      "english_2": "Cat_2",
-      "foreign_2": "კატა_2"
-    },
-    {
-      "english": "Lion",
-      "foreign": "ლომი",
-      "english_2": "Lion_2",
-      "foreign_2": "ლომი_2"
-    },
-    {
-      "english": "Table",
-      "foreign": "მაგიდა",
-      "english_2": "Table_2",
-      "foreign_2": "მაგიდა_2"
-    },
-    {
-      "english": "Pen",
-      "foreign": "კალამი",
-      "english_2": "Pen_2",
-      "foreign_2": "კალამი_2"
-    },
-    {
-      "english": "Door",
-      "foreign": "კარები",
-      "english_2": "Door_2",
-      "foreign_2": "კარები_2"
-    },
-    {
-      "english": "Apple",
-      "foreign": "ვაშლი",
-      "english_2": "Apple_2",
-      "foreign_2": "ვაშლი_2"
-    },
-    {
-      "english": "Water",
-      "foreign": "წყალი",
-      "english_2": "Water_2",
-      "foreign_2": "წყალი_2"
-    },
-    {
-      "english": "Red",
-      "foreign": "წითელი",
-      "english_2": "Red_2",
-      "foreign_2": "წითელი_2"
-    },
-    {
-      "english": "Yellow",
-      "foreign": "ყვითელი",
-      "english_2": "Yellow_2",
-      "foreign_2": "ყვითელი_2"
-    },
-    {
-      "english": "Pink",
-      "foreign": "ვარდისფერი",
-      "english_2": "Pink_2",
-      "foreign_2": "ვარდისფერი_2"
-    },
-    {
-      "english": "One",
-      "foreign": "ერთი",
-      "english_2": "One_2",
-      "foreign_2": "ერთი_2"
-    },
-    {
-      "english": "Two",
-      "foreign": "ორი",
-      "english_2": "Two_2",
-      "foreign_2": "ორი_2"
-    },
-    {
-      "english": "Three",
-      "foreign": "სამი",
-      "english_2": "Three_2",
-      "foreign_2": "სამი_2"
-    },
-    {
-      "english": "Four",
-      "foreign": "ოთხი",
-      "english_2": "Four_2",
-      "foreign_2": "ოთხი_2"
-    },
-    {
-      "english": "Five",
-      "foreign": "ხუთი",
-      "english_2": "Five_2",
-      "foreign_2": "ხუთი_2"
-    },
-    {
-      "english": "Hi",
-      "foreign": "გამარჯობა",
-      "english_2": "Hi_2",
-      "foreign_2": "გამარჯობა_2"
-    },
-    {
-      "english": "Dog",
-      "foreign": "ძაღლი",
-      "english_2": "Dog_2",
-      "foreign_2": "ძაღლი_2"
-    },
-    {
-      "english": "Cat",
-      "foreign": "კატა",
-      "english_2": "Cat_2",
-      "foreign_2": "კატა_2"
-    },
-    {
-      "english": "Lion",
-      "foreign": "ლომი",
-      "english_2": "Lion_2",
-      "foreign_2": "ლომი_2"
-    },
-    {
-      "english": "Table",
-      "foreign": "მაგიდა",
-      "english_2": "Table_2",
-      "foreign_2": "მაგიდა_2"
-    },
-    {
-      "english": "Pen",
-      "foreign": "კალამი",
-      "english_2": "Pen_2",
-      "foreign_2": "კალამი_2"
-    },
-    {
-      "english": "Door",
-      "foreign": "კარები",
-      "english_2": "Door_2",
-      "foreign_2": "კარები_2"
-    },
-    {
-      "english": "Apple",
-      "foreign": "ვაშლი",
-      "english_2": "Apple_2",
-      "foreign_2": "ვაშლი_2"
-    },
-    {
-      "english": "Water",
-      "foreign": "წყალი",
-      "english_2": "Water_2",
-      "foreign_2": "წყალი_2"
-    },
-    {
-      "english": "Red",
-      "foreign": "წითელი",
-      "english_2": "Red_2",
-      "foreign_2": "წითელი_2"
-    },
-    {
-      "english": "Yellow",
-      "foreign": "ყვითელი",
-      "english_2": "Yellow_2",
-      "foreign_2": "ყვითელი_2"
-    },
-    {
-      "english": "Pink",
-      "foreign": "ვარდისფერი",
-      "english_2": "Pink_2",
-      "foreign_2": "ვარდისფერი_2"
-    },
-    {
-      "english": "One",
-      "foreign": "ერთი",
-      "english_2": "One_2",
-      "foreign_2": "ერთი_2"
-    },
-    {
-      "english": "Two",
-      "foreign": "ორი",
-      "english_2": "Two_2",
-      "foreign_2": "ორი_2"
-    },
-    {
-      "english": "Three",
-      "foreign": "სამი",
-      "english_2": "Three_2",
-      "foreign_2": "სამი_2"
-    },
-    {
-      "english": "Four",
-      "foreign": "ოთხი",
-      "english_2": "Four_2",
-      "foreign_2": "ოთხი_2"
-    },
-    {
-      "english": "Five",
-      "foreign": "ხუთი",
-      "english_2": "Five_2",
-      "foreign_2": "ხუთი_2"
-    },
-    {
-      "english": "Hi",
-      "foreign": "გამარჯობა",
-      "english_2": "Hi_2",
-      "foreign_2": "გამარჯობა_2"
-    },
-    {
-      "english": "Dog",
-      "foreign": "ძაღლი",
-      "english_2": "Dog_2",
-      "foreign_2": "ძაღლი_2"
-    },
-    {
-      "english": "Cat",
-      "foreign": "კატა",
-      "english_2": "Cat_2",
-      "foreign_2": "კატა_2"
-    },
-    {
-      "english": "Lion",
-      "foreign": "ლომი",
-      "english_2": "Lion_2",
-      "foreign_2": "ლომი_2"
-    },
-    {
-      "english": "Table",
-      "foreign": "მაგიდა",
-      "english_2": "Table_2",
-      "foreign_2": "მაგიდა_2"
-    },
-    {
-      "english": "Pen",
-      "foreign": "კალამი",
-      "english_2": "Pen_2",
-      "foreign_2": "კალამი_2"
-    },
-    {
-      "english": "Door",
-      "foreign": "კარები",
-      "english_2": "Door_2",
-      "foreign_2": "კარები_2"
-    },
-    {
-      "english": "Apple",
-      "foreign": "ვაშლი",
-      "english_2": "Apple_2",
-      "foreign_2": "ვაშლი_2"
-    },
-    {
-      "english": "Water",
-      "foreign": "წყალი",
-      "english_2": "Water_2",
-      "foreign_2": "წყალი_2"
-    },
-    {
-      "english": "Red",
-      "foreign": "წითელი",
-      "english_2": "Red_2",
-      "foreign_2": "წითელი_2"
-    },
-    {
-      "english": "Yellow",
-      "foreign": "ყვითელი",
-      "english_2": "Yellow_2",
-      "foreign_2": "ყვითელი_2"
-    },
-    {
-      "english": "Pink",
-      "foreign": "ვარდისფერი",
-      "english_2": "Pink_2",
-      "foreign_2": "ვარდისფერი_2"
-    },
-    {
-      "english": "One",
-      "foreign": "ერთი",
-      "english_2": "One_2",
-      "foreign_2": "ერთი_2"
-    },
-    {
-      "english": "Two",
-      "foreign": "ორი",
-      "english_2": "Two_2",
-      "foreign_2": "ორი_2"
-    },
-    {
-      "english": "Three",
-      "foreign": "სამი",
-      "english_2": "Three_2",
-      "foreign_2": "სამი_2"
-    },
-    {
-      "english": "Four",
-      "foreign": "ოთხი",
-      "english_2": "Four_2",
-      "foreign_2": "ოთხი_2"
-    },
-    {
-      "english": "Five",
-      "foreign": "ხუთი",
-      "english_2": "Five_2",
-      "foreign_2": "ხუთი_2"
-    },
-    {
-      "english": "Hi",
-      "foreign": "გამარჯობა",
-      "english_2": "Hi_2",
-      "foreign_2": "გამარჯობა_2"
-    },
-    {
-      "english": "Dog",
-      "foreign": "ძაღლი",
-      "english_2": "Dog_2",
-      "foreign_2": "ძაღლი_2"
-    },
-    {
-      "english": "Cat",
-      "foreign": "კატა",
-      "english_2": "Cat_2",
-      "foreign_2": "კატა_2"
-    },
-    {
-      "english": "Lion",
-      "foreign": "ლომი",
-      "english_2": "Lion_2",
-      "foreign_2": "ლომი_2"
-    },
-    {
-      "english": "Table",
-      "foreign": "მაგიდა",
-      "english_2": "Table_2",
-      "foreign_2": "მაგიდა_2"
-    },
-    {
-      "english": "Pen",
-      "foreign": "კალამი",
-      "english_2": "Pen_2",
-      "foreign_2": "კალამი_2"
-    },
-    {
-      "english": "Door",
-      "foreign": "კარები",
-      "english_2": "Door_2",
-      "foreign_2": "კარები_2"
-    },
-    {
-      "english": "Apple",
-      "foreign": "ვაშლი",
-      "english_2": "Apple_2",
-      "foreign_2": "ვაშლი_2"
-    },
-    {
-      "english": "Water",
-      "foreign": "წყალი",
-      "english_2": "Water_2",
-      "foreign_2": "წყალი_2"
-    },
-    {
-      "english": "Red",
-      "foreign": "წითელი",
-      "english_2": "Red_2",
-      "foreign_2": "წითელი_2"
-    },
-    {
-      "english": "Yellow",
-      "foreign": "ყვითელი",
-      "english_2": "Yellow_2",
-      "foreign_2": "ყვითელი_2"
-    },
-    {
-      "english": "Pink",
-      "foreign": "ვარდისფერი",
-      "english_2": "Pink_2",
-      "foreign_2": "ვარდისფერი_2"
-    },
-    {
-      "english": "One",
-      "foreign": "ერთი",
-      "english_2": "One_2",
-      "foreign_2": "ერთი_2"
-    },
-    {
-      "english": "Two",
-      "foreign": "ორი",
-      "english_2": "Two_2",
-      "foreign_2": "ორი_2"
-    },
-    {
-      "english": "Three",
-      "foreign": "სამი",
-      "english_2": "Three_2",
-      "foreign_2": "სამი_2"
-    },
-    {
-      "english": "Four",
-      "foreign": "ოთხი",
-      "english_2": "Four_2",
-      "foreign_2": "ოთხი_2"
-    },
-    {
-      "english": "Five",
-      "foreign": "ხუთი",
-      "english_2": "Five_2",
-      "foreign_2": "ხუთი_2"
-    },
-    {
-      "english": "Testttttttttttttttt",
-      "foreign": "ტესტი"
+      "english": "check",
+      "foreign": "examine ; look into",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "indicate",
+      "foreign": "show",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "take off",
+      "foreign": "remove ; omit ; discard",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "released",
+      "foreign": "let out ; let go ; discharged",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "make it",
+      "foreign": "succeed",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "just",
+      "foreign": "simply ; only",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "repair",
+      "foreign": "fix ; mend",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "take",
+      "foreign": "requires ; call for",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "right now .",
+      "foreign": "at this moment ; presently",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "advancements ",
+      "foreign": "achievements ; progresses",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "data ",
+      "foreign": "information",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "windbag ",
+      "foreign": "talkative person ; chatter box",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "try out",
+      "foreign": "test ; check out",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "turn on ",
+      "foreign": "switch on ; activate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "turn off",
+      "foreign": "switch off ; deactivate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "glance",
+      "foreign": "quick look",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "realize",
+      "foreign": "become aware ; notice",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "perform ",
+      "foreign": "do ; carry out",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "acceleration",
+      "foreign": "increase speed ; speed up",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "seem",
+      "foreign": "appear ; look like",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "performance",
+      "foreign": "function",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "intended",
+      "foreign": "planned",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "approach",
+      "foreign": "get close to",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "installations ",
+      "foreign": "bases",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "signals",
+      "foreign": "warnings .",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "difficulty",
+      "foreign": "trouble",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "hate",
+      "foreign": "dislike",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "keep on",
+      "foreign": "continue",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "materials",
+      "foreign": "supplies",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to be fond of",
+      "foreign": "to like",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "steam",
+      "foreign": "vapor",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "made",
+      "foreign": "establish",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "grateful",
+      "foreign": "appreciate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "damage",
+      "foreign": "wreck",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "at last",
+      "foreign": "finally",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "don't bother",
+      "foreign": "never mind",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "use your head",
+      "foreign": "think intelligently",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "dull",
+      "foreign": "not sharp / boring",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fantastic",
+      "foreign": "marvelous ; superb",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "get ready",
+      "foreign": "prepare",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to avoid",
+      "foreign": "stay away from",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "look for",
+      "foreign": "try to find ; hunt for ; search",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "find",
+      "foreign": "locate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "find out",
+      "foreign": "discover ; realize",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fluctuate",
+      "foreign": "change",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "amend ",
+      "foreign": "to improve",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "recreation ",
+      "foreign": "play ; leisure",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cloth",
+      "foreign": "fabric ; material",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "submit",
+      "foreign": "turn in ; hand in",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "observe",
+      "foreign": "watch ; look closely",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to make up",
+      "foreign": "say something not true ; lie",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "compress",
+      "foreign": "press together",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "dampness",
+      "foreign": "moisture",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "make up your mind ",
+      "foreign": "decide",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to take your time",
+      "foreign": "not rush",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "rust",
+      "foreign": "oxidize",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "reject ",
+      "foreign": "refuse ; turn down",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to arrive ",
+      "foreign": "to come ; show up",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "beautiful ",
+      "foreign": "very pretty ; gorgeous",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to have access ",
+      "foreign": "to enter",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "injection",
+      "foreign": "shot",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "will go",
+      "foreign": "going to ; shall go",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "like",
+      "foreign": "enjoy ; have a nice time",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "courteous ",
+      "foreign": "polite",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "enough ",
+      "foreign": "sufficient",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "occasionally ",
+      "foreign": "once in a while ; now and ther",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sudden light",
+      "foreign": "flash",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "mission ",
+      "foreign": "task ; duty",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "origin",
+      "foreign": "beginning ; source",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "reject ",
+      "foreign": "do not accept ; turn down",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "least",
+      "foreign": "minimum ; no less than",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to inspect ",
+      "foreign": "to look at",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to make out ",
+      "foreign": "to see",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "throw ",
+      "foreign": "eject ; toss",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "lubricate",
+      "foreign": "grease",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "often ",
+      "foreign": "frequently",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "enable",
+      "foreign": "to make possible",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "defrost ",
+      "foreign": "remove ice",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "should",
+      "foreign": "ought to",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "say",
+      "foreign": "declare ; state",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to freeze",
+      "foreign": "to become icy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "right away ",
+      "foreign": "immediately",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "abundance",
+      "foreign": "a lot of",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "ASAP",
+      "foreign": "as soon as possible; immediately",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "rip",
+      "foreign": "tear",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "take care of",
+      "foreign": "look after",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to speed up",
+      "foreign": "go faster",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to share a ride",
+      "foreign": "drive together",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "equivalent",
+      "foreign": "same as",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "prefer",
+      "foreign": "would rather",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "prefer\r\nrunway",
+      "foreign": "landing area for planes",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "runway\r\nauthorize",
+      "foreign": "to approve",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "stream",
+      "foreign": "river",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "required",
+      "foreign": "mandatory ; compulsory",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to try",
+      "foreign": "to attempt",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "across",
+      "foreign": "on the other side",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fast",
+      "foreign": "quick ; rapid",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "rescue",
+      "foreign": "save",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "moving",
+      "foreign": "motion",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "can",
+      "foreign": "be able to",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "get",
+      "foreign": "obtain ; acquire",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "a while",
+      "foreign": "short time",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "take a walk",
+      "foreign": "go for a walk",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "reaction .",
+      "foreign": "response ; effect",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "wait",
+      "foreign": "hold on",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to teach",
+      "foreign": "train ; instruct",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "should",
+      "foreign": "ought to ; had better",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cut off",
+      "foreign": "to stop",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "worn",
+      "foreign": "used too much ; old",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to introduce",
+      "foreign": "to bring up",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "normal",
+      "foreign": "average ; regular",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to include",
+      "foreign": "to add ; be involved",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "accurate",
+      "foreign": "correct",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "rock",
+      "foreign": "mineral",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "same",
+      "foreign": "identical ; alike",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "steel",
+      "foreign": "metal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "handle",
+      "foreign": "operate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "efficient",
+      "foreign": "capable",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "tense",
+      "foreign": "tight ; pressured ; stressed",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "relaxed",
+      "foreign": "at ease ; still ; calm",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "erratic",
+      "foreign": "irregular ; abnormal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "produces",
+      "foreign": "generate ; make",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "think it over",
+      "foreign": "consider it",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "disassemble",
+      "foreign": "take apart",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "assemble",
+      "foreign": "put together",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "accumulate",
+      "foreign": "collect",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "illegal",
+      "foreign": "against regulations / law",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "saturated",
+      "foreign": "soaked ; wet",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "dismount",
+      "foreign": "take off ; get off",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "inflate",
+      "foreign": "put air in",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "work it out",
+      "foreign": "solve ; find answer",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "wind up",
+      "foreign": "finish ; end",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "water under the bridge",
+      "foreign": "past event",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "it's up to you ",
+      "foreign": "it depends on you snap",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "won't",
+      "foreign": "it depends on you\r\nwill not",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "keep an eye on",
+      "foreign": "watch carefully",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "got by with",
+      "foreign": "managed; continue",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "on with",
+      "foreign": "continue",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "represent",
+      "foreign": "stand for",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "lecture",
+      "foreign": "speech",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "furnish",
+      "foreign": "supply",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "process",
+      "foreign": "method ; way",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "for instance",
+      "foreign": "for example",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "pot",
+      "foreign": "deep pan",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "less dense",
+      "foreign": "lighter",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "look over",
+      "foreign": "review; examine; check",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "pick out",
+      "foreign": "select; choose",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "play a part in",
+      "foreign": "participate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "take over",
+      "foreign": "assume control",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "carry out",
+      "foreign": "completely accomplish",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cross out",
+      "foreign": "to mark off",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "bring up",
+      "foreign": "introduce ; present ; mention",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "role",
+      "foreign": "part ; job",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to settle down",
+      "foreign": "to make at home",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "eventually",
+      "foreign": "sooner or later ; ultimately",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fight off",
+      "foreign": "repel ; defend against",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "numerous",
+      "foreign": "many ; a lot of ; several",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "made up of",
+      "foreign": "consist of",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "authority",
+      "foreign": "power",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "remove",
+      "foreign": "dismiss ; take out",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "built",
+      "foreign": "constructed",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "major",
+      "foreign": "main ; chief",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "minor",
+      "foreign": "small ; slight",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "seldom",
+      "foreign": "not often ; rarely",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "be up for",
+      "foreign": "eligible",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "gripe",
+      "foreign": "complaint ; gripe ; nag",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to gripe",
+      "foreign": "to complain ; nag",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "buddy",
+      "foreign": "companion ; friend ; pal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "anxious",
+      "foreign": "eager ; worried ; on the edge",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "pleased",
+      "foreign": "satisfied ; glad ; happy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "call up",
+      "foreign": "telephone someone",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "call for",
+      "foreign": "pick up ; get",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "emphasize",
+      "foreign": "to stress ; point out",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "pass on",
+      "foreign": "give to another person ; relay",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "call on",
+      "foreign": "visit ; drop by",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "chew out",
+      "foreign": "scold ; berate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "huge",
+      "foreign": "very big ; gigantic ; enormous",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "brief",
+      "foreign": "short ; quick",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "snap it up",
+      "foreign": "hurry up; double time it; ASAP",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "rapidly",
+      "foreign": "fast ; swift ; hastily",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "vital",
+      "foreign": "necessary ; crucial ; essential",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fatal",
+      "foreign": "destructive of life",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "skeleton",
+      "foreign": "bones of a body",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "backbone",
+      "foreign": "spine",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "beat",
+      "foreign": "stroke",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "get your hands on",
+      "foreign": "obtain",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "on the nose",
+      "foreign": "exactly ; correctly",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "goldbrick",
+      "foreign": "a lazy person",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "whirlybird",
+      "foreign": "helicopter ; chopper",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "trousers",
+      "foreign": "pants ; slacks",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "bunk",
+      "foreign": "bed",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "teacher",
+      "foreign": "instructor",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sometime",
+      "foreign": "at some time",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sometimes",
+      "foreign": "now & then ; once in a while",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "overcast",
+      "foreign": "completely cloudy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "tiny",
+      "foreign": "very small ; little ; minute ;\r\nslight",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "drizzling",
+      "foreign": "raining a little bit",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "pouring",
+      "foreign": "raining a lot",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "blinking lights",
+      "foreign": "lights go on and off",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "butt in",
+      "foreign": "to interfere in someone's business",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "anyway",
+      "foreign": "anyhow ; just the same",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "bitter",
+      "foreign": "unpleasant taste",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "inform",
+      "foreign": "notify",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "think so",
+      "foreign": "imagine so ; suppose so",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "must",
+      "foreign": "have ( got ) to",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "stall",
+      "foreign": "stop running",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "healthy",
+      "foreign": "in good physical condition; fit",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "wealthy",
+      "foreign": "rich ; well off ; loaded",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "weird",
+      "foreign": "strange ; unusual",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "unusual",
+      "foreign": "not common",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "mission",
+      "foreign": "assignment ; task",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "stick to ",
+      "foreign": "continue",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "pick out",
+      "foreign": "choose ; select",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "make sure of ",
+      "foreign": "verify",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "ailment",
+      "foreign": "illness ; sickness ; disease",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "look like ",
+      "foreign": "resemble",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "look after ",
+      "foreign": "take care of",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "chip in ",
+      "foreign": "contribute ; pitch in",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "find out ",
+      "foreign": "discover",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "amazing ",
+      "foreign": "remarkable",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "let ",
+      "foreign": "permit ; allow",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "made up of",
+      "foreign": "composed of",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "the cast ",
+      "foreign": "actors in a play",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "mess up",
+      "foreign": "do something wrong",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "knock it off",
+      "foreign": "stop it ; quit that",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "give up",
+      "foreign": "stop trying ; quit",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "purpose",
+      "foreign": "aim ; objective ; goal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "merry",
+      "foreign": "jolly ; joyful",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "brand",
+      "foreign": "label",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "lawful",
+      "foreign": "legal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "deadly",
+      "foreign": "lethal ; fatal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "freedom",
+      "foreign": "liberty",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "permit",
+      "foreign": "license",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fluid",
+      "foreign": "liquid",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "danger",
+      "foreign": "hazard",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "humble",
+      "foreign": "meek",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "dull",
+      "foreign": "boring ; not interesting",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "desert",
+      "foreign": "dry land",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "dessert",
+      "foreign": "sweet food eaten after a\r\nmeal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "snack",
+      "foreign": "food eaten between meals",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "flat broke",
+      "foreign": "having no money",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "starving",
+      "foreign": "very hungry",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "happy",
+      "foreign": "glad ; pleased",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "unhappy",
+      "foreign": "sad",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sleet",
+      "foreign": "tiny icy particles",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "hail",
+      "foreign": "balls of ice",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "neat",
+      "foreign": "sharp ; organized ; interesting",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "rest",
+      "foreign": "relax",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "snap it up",
+      "foreign": "buy fast",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "snap to it",
+      "foreign": "pay attention ; hurry",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cook up",
+      "foreign": "in invent ; create",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "huge",
+      "foreign": "immense",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to wound",
+      "foreign": "injure",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to inhabit",
+      "foreign": "to live in",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to supply",
+      "foreign": "equip",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "forever",
+      "foreign": "eternal ; for always",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cloth",
+      "foreign": "fabric",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sorrow",
+      "foreign": "grief",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "joy",
+      "foreign": "happiness",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "siblings",
+      "foreign": "brothers & sisters",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "spouse",
+      "foreign": "wife or husband ; mate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to conceal",
+      "foreign": "to hide",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to lie",
+      "foreign": "to deceive",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "guard",
+      "foreign": "defend ; protect",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sleepy",
+      "foreign": "drowsy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "clumsy",
+      "foreign": "awkward",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to void",
+      "foreign": "cancel",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "truthful",
+      "foreign": "honest",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to grip",
+      "foreign": "grasp ; grab",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "smart",
+      "foreign": "clever ; intelligent",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to fight",
+      "foreign": "combat",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "funny",
+      "foreign": "humorous ; hilarious",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "penetrate",
+      "foreign": "pierce ; enter",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "promise",
+      "foreign": "pledge ; vow",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "exact",
+      "foreign": "precise",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to search",
+      "foreign": "look for",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to remember",
+      "foreign": "recall",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to remind",
+      "foreign": "to cause another to\r\nremember",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "duplicate",
+      "foreign": "repeat ; copy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "wander",
+      "foreign": "roam",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "fasten ",
+      "foreign": "secure ; join",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "harsh ",
+      "foreign": "severe",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "location",
+      "foreign": "site",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "surprise ",
+      "foreign": "startle",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "excellent ",
+      "foreign": "outstanding ; perfect",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "distress ",
+      "foreign": "trouble",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "empty ",
+      "foreign": "vacant",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to disappear ",
+      "foreign": "vanish",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "necessary ",
+      "foreign": "vital",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "bright ",
+      "foreign": "vivid",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to promise",
+      "foreign": "VOW",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to desert ",
+      "foreign": "to abandon",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to change ",
+      "foreign": "alter ; modify",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to aggravate ",
+      "foreign": "annoy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "yearly ",
+      "foreign": "annually ; once a year",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "solution ",
+      "foreign": "answer",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "back",
+      "foreign": "behind ; rear",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to set up ",
+      "foreign": "start ; get ready",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "job ",
+      "foreign": "mission",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to find out ",
+      "foreign": "discover ; figure out",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "instruction ",
+      "foreign": "direction",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "about ",
+      "foreign": "approximate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "serious",
+      "foreign": "critical",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "dense ",
+      "foreign": "thick",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to be involved ",
+      "foreign": "participate",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to find out ",
+      "foreign": "discover by chance",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to get back ",
+      "foreign": "receive ; obtain",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to lift ",
+      "foreign": "to bring up",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to operate",
+      "foreign": "instruct",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to teach ",
+      "foreign": "show; instruct",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "finally ",
+      "foreign": "at last",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to be out of",
+      "foreign": "not have",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "furnace ",
+      "foreign": "hot",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "jot down ",
+      "foreign": "write down",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "blind",
+      "foreign": "doesn't see",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "deaf",
+      "foreign": "doesn't hear",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "mute",
+      "foreign": "doesn't speak",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to call off",
+      "foreign": "to postpone ; cancel",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to cut down ",
+      "foreign": "to reduce",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to cut out ",
+      "foreign": "stop it",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "mixed up",
+      "foreign": "confused",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "knock it off ",
+      "foreign": "to stop it ; cut it out",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sequence ",
+      "foreign": "order",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sharp ",
+      "foreign": "looking good ; smart",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to be pleased",
+      "foreign": "satisfied",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to arouse",
+      "foreign": "to wake up from sleep",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "angry",
+      "foreign": "furious ; outraged",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "irritated",
+      "foreign": "upset ; bothered",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "all set",
+      "foreign": "ready ; prepared",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "sick",
+      "foreign": "ill ; under the weather",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "beside",
+      "foreign": "next to",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "besides",
+      "foreign": "in addition to ; moreover",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cheer up",
+      "foreign": "to get someone in a happy m",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to be stuck up",
+      "foreign": "conceited ; arrogant",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "faithful",
+      "foreign": "loyal ; dedicated",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "crazy",
+      "foreign": "insane ; nuts",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "beneath",
+      "foreign": "under ; below ; underneath",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "above",
+      "foreign": "over",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "newlywed",
+      "foreign": "recently married",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "shy",
+      "foreign": "timid",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "cruel",
+      "foreign": "mean ; unjust",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "quarrel",
+      "foreign": "dispute ; argument",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "to quarrel",
+      "foreign": "to dispute ; argue ; go at it ; figl",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "impatient",
+      "foreign": "antsy",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "busy",
+      "foreign": "be on the go ; occupied",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "relax",
+      "foreign": "take it easy ; calm down",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "able",
+      "foreign": "capable ; competent",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "thief",
+      "foreign": "robber ; crook",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "anger",
+      "foreign": "rage ; fury",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "close",
+      "foreign": "shut ; seal",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
+    },
+    {
+      "english": "maybe",
+      "foreign": "perhaps",
+      "ans_1": "Answer_1",
+      "ans_2": "Answer_2",
+      "ans_3": "Answer_3",
+      "f_ans_1": "f_Answer_1",
+      "f_ans_2": "f_Answer_2",
+      "f_ans_3": "f_Answer_3"
     }
   ]
 }
